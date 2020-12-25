@@ -3,6 +3,15 @@ body
     margin: 0;
     padding: 0;
 }
+/******************** option ******************************/
+#rail,#flight
+{
+    height: 40px;
+    width: 100px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+}
 /******************* page 1 *******************************/
 #page1
 {
@@ -66,7 +75,7 @@ select
     text-align: center;
     
 }
-#sel1
+#sel1,#sel2
 {
     font-size: 25px;
     width: 150px;
